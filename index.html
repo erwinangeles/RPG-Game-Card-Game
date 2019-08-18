@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+<title>Pokemon Game</title> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/style.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div class="container">
+<h1>Pokemon Game</h1>
+
+
+<div class="row justify-content-md-center" id="pokemon_selections">
+<div class="col-md-2" id="pikachu">
+    <img src="assets/images/pikachu.png" width="100%" onclick="setPokemon('pikachu')"/>
+    <div class="carousel-caption">
+           <div id="pikachu_hp"></div>
+      </div>
+    </div>
+<div  class="col-md-2" id="charmander">
+        <img src="assets/images/charmander.png" width="100%" onclick="setPokemon('charmander')"/>
+        <div class="carousel-caption">
+                <div id="charmander_hp"></div>
+           </div></div>
+<div  class="col-md-2" id="squirtle">
+        <img src="assets/images/squirtle.png" width="100%" onclick="setPokemon('squirtle')"/>
+        <div class="carousel-caption">
+                <div id="squirtle_hp"></div>
+           </div></div>
+<div  class="col-md-2" id="bulbasaur">
+        <img src="assets/images/bulbasaur.png" width="100%" onclick="setPokemon('bulbasaur')"/>
+        <div class="carousel-caption">
+                <div id="bulbasaur_hp"></div>
+           </div></div>
+</div>
+
+<div class="row justify-content-md-center" id="battleScene">
+
+
+    <div class="col-md-3" id="pokemon-box">
+        <h3>Your Pokemon</h3>
+      <div id="divPlayer1_pokemon">
+
+      </div>
+      <div id="attack_Player1"><hr></div>
+    </div>
+
+    <div class="col-md-3">
+        <h1>VS</h1>
+    </div>
+    <div class="col-md-3" id="pokemon-box">
+            <h3>Enemy</h3>
+            <div id="divPlayer2_pokemon">
+    
+          </div>
+          <div id="attack_Player2"><hr></div>
+        </div>
+
+</div>
+   
+  <div id="controls">
+        <button class="btn btn-danger" onclick="attackMove()">Attack</button>
+  </div>
+</div>
+
+<div class="row justify-content-md-center">
+<div id="battleMessage"></div>
+</div>
+<script src="assets/javascript.js"></script>
+<script>startGame();</script>
+
+</body>
+</html>

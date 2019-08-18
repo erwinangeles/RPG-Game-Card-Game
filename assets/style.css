@@ -1,0 +1,29 @@
+body{
+    background-image: url("../assets/images/bg.jpg");
+}
+.container{
+    margin-top: 50px;
+    background-color: gray;
+    border: 5px black solid;
+    background-image: url("../assets/images/container-bg.png");
+}
+#battleScene{
+    margin-top: 50px;
+    border: 2px black dotted;
+}
+.carousel-caption{
+    background-color: black;
+}
+.danger-box{
+    color: white;
+    background-color: red;
+}
+h1{
+    text-align: center;
+}
+#battleMessage{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
