@@ -199,7 +199,9 @@ function isUserDefeated(){
         $('#controls').append(`<button class="btn btn-primary" onclick="location.reload()">New Game</button>`)
     }else if(winCounter == 3){
         $('#battleMessage').html(`<p>Congratulations, you win! <b>${Player1.name}</b> is the champion.</p>`);
-        $('#controls').append(`<button class="btn btn-primary" onclick="location.reload()">New Game</button>`)
+        $('#controls').append(`<button class="btn btn-primary" onclick="location.reload()">New Game</button>`);
+        $('#pokemon_selections').html('<h3>You Win!</h3>');
+        $('#pokemon_selections').addClass('win-box')
     }
 }
 
