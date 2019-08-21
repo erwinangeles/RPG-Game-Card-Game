@@ -216,6 +216,6 @@ function resetEnemy(){
 }
 
 function levelUp(){
-Player1.attack = Player1.attack * 2
+Player1.attack = Player1.attack * 3
 alert('level up homie!')
 }
