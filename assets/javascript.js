@@ -5,9 +5,9 @@ let winCounter = 0;
 
 const Pokemon ={
     Pikachu: {name: 'Pickachu', health: 115, attack: 15,userPicked: false, defeated: false},
-    Charmander: {name: 'Charmander', health: 90, attack: 5,userPicked: false, defeated: false},
+    Charmander: {name: 'Charmander', health: 60, attack: 5,userPicked: false, defeated: false},
     Squirtle: {name: 'Squirtle', health: 80, attack: 5, userPicked: false, defeated: false},
-    Bulbasaur: {name: 'Bulbasaur', health: 120, attack: 10, userPicked: false, defeated: false},
+    Bulbasaur: {name: 'Bulbasaur', health: 60, attack: 10, userPicked: false, defeated: false},
     // Jigglypuff: {name: 'Jigglypuff', health: 100, attack: 15, userPicked: false,defeated: false},
     // Snorlax: {name: 'Snorlax', health: 100, attack: 25, userPicked: false,defeated: false},
 }
